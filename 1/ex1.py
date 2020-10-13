@@ -1,7 +1,7 @@
 def ex1(phrase_1, phrase_2):
-    if phrase_1 > phrase_2 :
+    if len(phrase_1) > len(phrase_2) :
         return 'Фраза 1 длиннее фразы 2'
-    elif phrase_1 < phrase_2 :
+    elif len(phrase_1) < len(phrase_2) :
         return 'Фраза 2 длиннее фразы 1'
     else :
         return 'Фразы равной длины'
